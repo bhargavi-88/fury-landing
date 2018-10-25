@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="shortcut icon" href="img/favicon.png"/>
+    <title>Furycoin</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="BHost template project">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap-4.1.2/bootstrap.min.css">
+    <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/responsive.css">
+    <link rel="stylesheet" href="css/default.min.css">
+    <link rel="stylesheet" href="css/frst-timeline-style-3.css">
+    <link rel="stylesheet" href="css/demo.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <style>
+        body
+        {
+            background-color:#fff;
+        }
+
+      .bg-buy  .h1-size
+        {
+            font-size: 48px !important;
+        }
+        .parallax-mirror
+        {
+            margin-top: -28px;
+        }
+        .domain_pricing_content ul li a > span:first-of-type
+        {
+            color: #ff6a32;
+            font-size: 24px;
+        }
+        .full-width-divider {
+            width: 100%;
+            background: #f2f2f2;
+            overflow: hidden;
+            z-index: 1;
+            position: relative;
+            margin-top: 3rem;
+            padding: 3rem 0;
+        }
+        .full-width-divider .mega-octicon
+        {
+            margin-bottom: 2rem;
+        }
+
+        .highlight-module
+        {
+            text-align: center;
+        }
+        .highlight-module .mega-octicon {
+            font-size: 70px;
+            width: 70px;
+            height: 70px;
+        }
+        a .mega-octicon {
+            color: #333;
+        }
+        .bg-spec,.bg-buy
+        {
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .bg-spec
+        {
+            position: relative;
+
+        }
+        .bg-spec section
+        {
+            position: static;
+        }
+
+        .bg-buy
+        {
+            background-image: url("img/buy_img.jpg");
+
+            padding: 6rem 0 8rem;
+            background-attachment: fixed;
+        }
+        .bg-spec .list-group-item
+        {
+            background: none;
+            border: 0;
+            font-size: 18px;
+        }
+        .bg-spec .list-group
+        {
+            padding: 5rem 0;
+        }
+        .specification
+        {
+            padding: 3rem 0;
+        }
+        .premine
+        {
+            padding: 3rem 0 3rem;
+        }
+        .fury-coin img
+        {
+            height: 150px;
+        }
+        .bg-premine
+        {
+            background-color: #ffc1aa;
+            padding: 3rem 0;
+        }
+        .bg-premine p
+        {
+            color:#fff;
+            font-size: 18px;
+        }
+        .copyright_bar
+        {
+            margin-top: 3rem;
+        }
+        .ossec
+        {
+            padding-top: 3rem;
+        }
+        .bg-buy .input-email
+        {
+            border-radius: 50px;
+        }
+        .bg-buy .input-btn
+        {
+            padding: 18px 55px;
+        }
+        .bg-buy .input-btn:hover
+        {
+            background-color: #497eee;
+            color:#fff;
+        }
+        .bg-buy .fury-para
+        {
+            letter-spacing: 2px;
+        }
+        @media (min-width: 320px) and (max-width: 575px)
+        {
+            .home_container
+            {
+                position: absolute;
+                top:0;
+            }
+        }
+        /*//particle.css*/
+        /* ---- reset ---- */ body{ margin:0; font:normal 75% Arial, Helvetica, sans-serif; } canvas{ display: block; vertical-align: bottom; } /* ---- particles.js container ---- */ #particles-js{ position:absolute; width: 100%; height: 100%;  background-image: url(" img/specification.jpg"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } /* ---- stats.js ---- */ .count-particles{ background: #000022; position: absolute; top: 48px; left: 0; width: 80px; color: #13E8E9; font-size: .8em; text-align: left; text-indent: 4px; line-height: 14px; padding-bottom: 2px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; } .js-count-particles{ font-size: 1.1em; } #stats, .count-particles{ -webkit-user-select: none; margin-top: 5px; margin-left: 5px; } #stats{ border-radius: 3px 3px 0 0; overflow: hidden; } .count-particles{ border-radius: 0 0 3px 3px; }
+        /*<!-timeline-->*/
+        .text-section p
+        {
+            color:#fff;
+        }
+        #page
+        {
+            margin: auto;
+        }
+    </style>
+
+</head>
+<body>
+
+<div class="super_container">
+
+
+    <!-- Header -->
+
+    <header class="header trans_400">
+        <div class="header_content d-flex flex-row align-items-center justify-content-start trans_400">
+            <div class="logo"><a href="#"><img src="img/logo.png" alt="image missing" class="img-fluid furycoinlogo"></a></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 offset-lg-3 offset-xl-4">
+                        <nav class="main_nav">
+                            <ul class="d-flex flex-row align-items-center justify-content-start">
+                                <li class="active"><a href="index.html">Home</a></li>
+                                <li><a href="http://69.55.49.102:8081/">BlockChain Explorer</a></li>
+                                <li><a href="http://mine.fury-coin.com">Mining </a></li>
+                                <li><a href="http://mine.fury-coin.com">Pools </a></li>
+                                <li><a href="#specification">Specifications</a></li>
+                                <li><a href="https://github.com/FuryCoin/Fury/releases">Download Wallet</a></li>
+
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="header_right d-flex flex-row align-items-center justify-content-start">
+
+                <!-- Header Links -->
+                <div class="header_links">
+                    <ul class="d-flex flex-row align-items-center justify-content-start">
+                    </ul>
+                </div>
+
+                <!-- Hamburger -->
+                <div class="hamburger"><i class="fa fa-bars" aria-hidden="true"></i></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Menu -->
+
+    <div class="menu trans_500">
+        <div class="menu_content d-flex flex-column align-items-center justify-content-center">
+            <div class="menu_nav trans_500">
+                <ul class="text-center">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="http://69.55.49.102:8081/">BlockChain Explorer</a></li>
+                    <li><a href="http://mine.fury-coin.com">Mining </a></li>
+                    <li><a href="http://mine.fury-coin.com">Pools </a></li>
+                    <li><a href="#specification">Specifications</a></li>
+                    <li><a href="https://github.com/FuryCoin/Fury/releases">Download Wallet</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Home -->
+
+    <div class="home">
+        <div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/index.jpg" data-speed="0.8"></div>
+        <div class="home_container">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="home_content text-center">
+                            <div class="fury-coin ml-auto mr-auto d-flex flex-column align-items-center justify-content-center"><div><img src="img/logo2.png" alt="https://www.flaticon.com/authors/srip"></div></div>
+                            <div class="home_title">FuryCoin is a truly anonymous cryptocurrency.</div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div>
+
+        <div class="container" id="specification">
+            <div class="row">
+                <div class="col specification">
+                    <div class="section_title_container text-center">
+                        <div class="section_title"><h2>Specification</h2></div>
+                        <div class="section_subtitle">Fury Coin has Unique Specification can be described</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-spec">
+            <div id="particles-js"></div>
+            <section class="container">
+                <section class="row">
+                    <section class="col-lg-6 col-md-6 col-sm-8 col-12 ml-auto">
+                        <ul class="list-group border-0">
+                            <li class="list-group-item">Symbol: FURY</li>
+                            <li class="list-group-item">PoW Algorithm: CNv7</li>
+                            <li class="list-group-item">Total Supply: 1,000,000,000 (1 Billion)</li>
+                            <li class="list-group-item">Reward: 1,500</li>
+                            <li class="list-group-item">Block Time: 120 seconds</li>
+                            <li class="list-group-item">Difficulty Adjustment: 200 blocks</li>
+                            <li class="list-group-item">Decimal Places: 8</li>
+                            <li class="list-group-item">Block Confirmation: 10 blocks</li>
+                            <li class="list-group-item">Premine: 20 %</li>
+                        </ul>
+                    </section>
+                </section>
+            </section>
+        </div>
+    </div>
+
+
+    <div class="premine">
+        <div class="container">
+            <div class="row">
+                <div class="col ">
+                    <div class="section_title_container text-center">
+                        <div class="section_title"><h2>Premine Spending</h2></div>
+                        <div class="section_subtitle">It describes Furycoin premine Spending in diagrammatically</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="bg-premine">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6 col-12 text-center">
+                    <img src="img/premine.png" alt="image_missing" class="img-fluid">
+                </div>
+                <div class="col-lg-6 col-md-12 col-12">
+                <p class="text-justify">
+                A premine is where a developer allocates a certain amount of currency credit to a particular address before releasing the source code to the open community. This is often done based on the reasoning that they need to pay for certain features such as listing on exchanges and development of core features such as block explorers.
+                </p>
+                    <p class="text-justify">A premine also happens if there is an Initial Coin Offering (ICO) and the coins that are bought in the presale are then mined as part of the genesis block. </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="bg-buy">
+        <div class="container">
+            <div class="row ">
+                <div class="col-12 text-center">
+                    <h1 class="text-white h1-size">Buy and sell digital currency</h1>
+                    <p class="text-white fury-para">Fury coin is the most popular cryptocurrency and truely Best one for choose</p>
+                </div>
+                <div class="col-12">
+                    <form action="">
+                        <div class="row ml-4">
+
+
+                            <div class="col-12 mt-4 text-left">
+                                <button class="btn btn-white mx-auto d-block btn-lg input-email input-btn" type="submit">Buy Now</button>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="section_title_container text-center ossec">
+                    <div class="section_title"><h2>Platform Supports</h2></div>
+                    <div class="section_subtitle">
+                        Fury coin can support various platfrom can be described</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="full-width-divider ">
+        <div class="container">
+
+            <ul class=" row">
+
+                <li class="highlight-module  col-lg-4 col-md-6 col-12">
+                    <a href="https://github.com/FuryCoin/Fury/releases/"><span class="mega-octicon fa fa-windows"></span></a>
+                    <h2><a href="https://github.com/FuryCoin/Fury/releases/">Windows CLI</a></h2>
+                    <p>Daemon, simplewallet and payment gateway for Windows (64bit)</p>
+                </li>
+                <li class="highlight-module  col-lg-4 col-md-6 col-12 mt-4 mt-md-4 mt-lg-0">
+                    <a href="https://github.com/FuryCoin/Fury/releases/"><span class="mega-octicon fa fa-linux"></span></a>
+                    <h2><a href="https://github.com/FuryCoin/Fury/releases/">Linux CLI</a></h2>
+                    <p>Daemon, simplewallet and payment gateway for Ubuntu (64bit)</p>
+                </li>
+                <li class="highlight-module  col-lg-4 col-md-6 col-12 mt-4 mt-md-4 mt-lg-0">
+                    <a href="https://github.com/FuryCoin/Fury/releases/"><span class="mega-octicon fa fa-apple"></span></a>
+                    <h2><a href="https://github.com/FuryCoin/Fury/releases/">GUI Wallet</a></h2>
+                    <p>Daemon, simplewallet and payment gateway (64bit)</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="section_title_container text-center ossec">
+                    <div class="section_title"><h2>Road Map</h2></div>
+                    <div class="section_subtitle">
+                        Fury coin can Road Map</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div id="page">
+
+                <div class="frst-container">
+                    <!-- frst-left-align/frst-right-align/frst-alternate/frst-date-opposite-->
+                    <div class="frst-timeline frst-timeline-style-3 frst-alternate frst-date-opposite">
+                        <div class="frst-timeline-block frst-odd-item" data-animation="slideInUp">
+                            <div class="frst-timeline-img"> <span class="turqoise"></span> </div>
+                            <!-- frst-timeline-img -->
+                            <div class="frst-timeline-content effect1 animated hingeRight" style="position: relative;">
+                                <div class="frst-timeline-content-inner turqoise"> <span class="frst-date">Q1</span> <span class="icon-section">
+                                <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+                            </span>
+                                    <div class="text-section">
+                                        <h2>JAN-MAR</h2>
+                                        <p>Exchange Listing</p>
+                                        <p>Mobile Wallet</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- frst-timeline-content -->
+                        </div>
+                        <!-- frst-timeline-block -->
+                        <div class="frst-timeline-block frst-even-item" data-animation="slideInUp">
+                            <div class="frst-timeline-img"> <span class="light-blue"></span> </div>
+                            <!-- frst-timeline-img -->
+                            <div class="frst-timeline-content effect2 animated hingeRight" style="position: relative;">
+                                <div class="frst-timeline-content-inner light-blue"> <span class="frst-date">Q2</span> <span class="icon-section">
+                                <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+                            </span>
+                                    <div class="text-section">
+                                        <h2>APR-JUN</h2>
+                                        <p>TBA </p>
+                                    </div>
+                                </div>
+                                <!-- frst-timeline-content-inner -->
+                            </div>
+                            <!-- frst-timeline-content -->
+                        </div>
+                        <!-- frst-timeline-block -->
+                        <div class="frst-timeline-block frst-odd-item" data-animation="slideInUp">
+                            <div class="frst-timeline-img"> <span class="blue"></span> </div>
+                            <!-- frst-timeline-img -->
+                            <div class="frst-timeline-content effect1 animated hingeRight" style="position: relative;">
+                                <div class="frst-timeline-content-inner blue"> <span class="frst-date">Q3</span> <span class="icon-section">
+                                <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+                            </span>
+                                    <div class="text-section">
+                                        <h2>JUL-SEP</h2>
+                                        <p>TBA </p>
+                                    </div>
+                                </div>
+                                <!-- frst-timeline-content-inner -->
+                            </div>
+                            <!-- frst-timeline-content -->
+                        </div>
+                        <!-- frst-timeline-block -->
+                        <div class="frst-timeline-block frst-even-item" data-animation="slideInUp">
+                            <div class="frst-timeline-img"> <span class="violette"></span> </div>
+                            <!-- frst-timeline-img -->
+                            <div class="frst-timeline-content effect2 animated hingeRight" style="position: relative;">
+                                <div class="frst-timeline-content-inner violette"> <span class="frst-date">Q4</span> <span class="icon-section">
+                                <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+                            </span>
+                                    <div class="text-section">
+                                        <h2>OCT-DEC</h2>
+                                        <p>Graphical User Interface(GUI) Wallet, Airdrops Start, Ann Website Updates, Bullet Proofs</p>
+                                    </div>
+                                </div>
+                                <!-- frst-timeline-content-inner -->
+                            </div>
+                            <!-- frst-timeline-content -->
+                        </div>
+                        <div class="frst-timeline-block frst-even-item" data-animation="slideInUp">
+                            <div class="frst-timeline-img"> <span class="violette"></span> </div>
+                            <!-- frst-timeline-img -->
+
+
+                        </div>
+
+                    </div>
+                    <!-- frst-timeline -->
+                </div>
+                <!-- .frst-container -->
+            </div>
+        </div>
+    </div>
+
+
+        <div class="copyright_bar text-center"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
+    </footer>
+</div>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="styles/bootstrap-4.1.2/popper.js"></script>
+<script src="styles/bootstrap-4.1.2/bootstrap.min.js"></script>
+<script src="plugins/parallax-js-master/parallax.min.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/particles.min.js"></script> <!-- stats.js lib -->
+<script src="js/stats.min.js"></script>
+<script src="js/jquery.mousewheel.min.js"></script>
+<script src="js/jquery.mousewheel-3.0.6.min.js"></script>
+<script src="js/jquery.mCustomScrollbar.min.js"></script>
+<script src="js/frst-timeline.js"></script>
+<script>
+
+    (function($){
+        $(document).ready(function (){
+            $("#side-menu-content").mCustomScrollbar({
+                theme:"rounded-dots",
+                scrollInertia:800
+            });
+
+        });
+    })(jQuery);
+
+</script>
+<script>
+    particlesJS("particles-js", {"particles":{"number":{"value":180,"density":{"enable":true,"value_area":800}},"color":{"value":"#ff743d"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.94,"random":false,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":3,"random":true,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":true}},"line_linked":{"enable":false,"distance":150,"color":"#ffffff","opacity":0.4,"width":1},"move":{"enable":true,"speed":6,"direction":"bottom","random":false,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":true,"mode":"repulse"},"onclick":{"enable":true,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});;</script>
+</body>
+</html>
